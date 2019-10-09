@@ -2,6 +2,8 @@
 
 https://gallery.echartsjs.com/editor.html?c=x7ZyriidTA
 
+![样式](https://user-images.githubusercontent.com/29752506/66466324-18f1f100-eab5-11e9-9bce-a03147045e20.png)
+
 ```js
 // Generate data
 var category = ['市区', '万州', '江北', '南岸', '北碚', '綦南', '长寿', '永川', '璧山', '江津', '城口', '大足', '垫江', '丰都', '奉节', '合川', '江津区', '开州', '南川', '彭水', '黔江', '石柱', '铜梁', '潼南', '巫山', '巫溪', '武隆', '秀山', '酉阳', '云阳', '忠县', '川东', '检修'];
