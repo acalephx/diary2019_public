@@ -122,18 +122,19 @@ option = {
             itemStyle: {
                 normal: {
                     barBorderRadius: 5,
-                    color: new echarts.graphic.LinearGradient(
-                        0, 0, 0, 1,
-                        [{
-                                offset: 0,
-                                color: '#956FD4'
-                            },
-                            {
-                                offset: 1,
-                                color: '#3EACE5'
-                            }
-                        ]
-                    )
+                    color:"rgba(55, 85, 80, 1)",
+                    // color: new echarts.graphic.LinearGradient(
+                    //     0, 0, 0, 1,
+                    //     [{
+                    //             offset: 0,
+                    //             color: '#956FD4'
+                    //         },
+                    //         {
+                    //             offset: 1,
+                    //             color: '#3EACE5'
+                    //         }
+                    //     ]
+                    // )
                 }
             },
             data: barData
@@ -142,13 +143,13 @@ option = {
         {
             name: '计划贯通',
             type: 'bar',
-            barGap: '-100%',
-            barWidth: 10,
+            barGap: '-140%',
+            barWidth: 18,
             itemStyle: {
                 normal: {
                     barBorderRadius: 2,
                     borderWidth: 3,
-                    borderColor: "rgba(240, 240, 240, 0.6)",
+                    borderColor: "rgba(255, 255, 255, 0.7)",
                     borderType: "solid",
                     areaStyle: {
                         opacity: 0.5
