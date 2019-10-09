@@ -2,7 +2,7 @@
 
 https://gallery.echartsjs.com/editor.html?c=x7ZyriidTA
 
-![样式](https://user-images.githubusercontent.com/29752506/66466324-18f1f100-eab5-11e9-9bce-a03147045e20.png)
+![a](https://user-images.githubusercontent.com/29752506/66467496-1c867780-eab7-11e9-9229-bf8d7559d35f.png)
 
 ```js
 // Generate data
