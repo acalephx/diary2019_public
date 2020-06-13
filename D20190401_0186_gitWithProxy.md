@@ -1,12 +1,12 @@
 ```bash
 
 # 全局设置代理
-git config --global http.proxy 'socks5://127.0.0.1:xxxx'
-git config --global https.proxy 'socks5://127.0.0.1:xxxx'
+git config --global http.proxy socks5://127.0.0.1:1086
+git config --global https.proxy socks5://127.0.0.1:1086
 
 # 全局取消
-git config --global --unset http.proxy 'socks5://127.0.0.1:1086'
-git config --global --unset https.proxy 'socks5://127.0.0.1:1086'
+git config --global --unset http.proxy socks5://127.0.0.1:1086
+git config --global --unset https.proxy socks5://127.0.0.1:1086
 
 
 #只对github.com代理
