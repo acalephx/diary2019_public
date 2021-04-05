@@ -19,6 +19,11 @@ git config --global --unset http.https://github.com.proxy
 ## go proxy
 
 ```shell
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.cn,direct
+```
+
+```shell
 
 go env -w GOPROXY=https://goproxy.cn,direct
 go env -w GOSUMDB=sum.golang.google.cn
