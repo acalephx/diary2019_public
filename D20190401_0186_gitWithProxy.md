@@ -19,6 +19,13 @@ git config --global --unset http.https://github.com.proxy
 ## go proxy
 
 ```shell
+export ALL_PROXY=socks5://127.0.0.1:1086
+export ALL_PROXY=http://127.0.0.1:1087
+go env -w GO111MODULE=on
+
+```
+
+```shell
 go env -w GO111MODULE=on
 go env -w GOPROXY=https://goproxy.cn,direct
 ```
